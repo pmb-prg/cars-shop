@@ -1,0 +1,25 @@
+@import "../../src/styles/values";
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply flex flex-col justify-between h-96 mx-1 my-3 rounded-lg p-2 w-[342px] cursor-pointer
+}
+.topCard {
+    @apply flex flex-col justify-between h-80 border-b-2 pb-2
+}
+.topCard img{
+    @apply rounded-md w-full
+}
+.topCard h4{
+    @apply text-lg font-bold
+}
+.bottomCard{
+    @apply flex justify-between items-center
+}
+.bottomCard span{
+    @apply font-bold bg-green-400 p-2 rounded-md
+}
+.bottomCard p{
+    background-color: $bgcolor1;
+    @apply flex justify-between items-center  font-bold p-2 rounded-md
+}

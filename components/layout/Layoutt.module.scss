@@ -1,0 +1,24 @@
+
+@import "../../src/styles/values";
+
+.header{
+    background:linear-gradient(45deg, $bgcolor1, $bgcolor2);
+    @apply h-24 mx-2 md:mx-7 my-2 rounded-lg p-5 flex justify-center items-center
+}
+.header a{
+    @apply flex items-center sm:justify-between justify-evenly w-full flex-col sm:flex-row
+}
+.header a h2{
+    @apply sm:text-2xl text-xl font-bold 
+}
+.header a p{
+    @apply sm:text-lg font-bold sm:block hidden 
+}
+.header a span{
+    @apply text-5xl 
+}
+
+.footer {
+    color: $bgcolor2;
+    @apply h-10 bg-zinc-800 md:mx-7 mx-2 my-2 flex justify-center items-center rounded-md
+}

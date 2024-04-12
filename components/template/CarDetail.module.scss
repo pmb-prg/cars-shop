@@ -1,0 +1,65 @@
+@import "../../src/styles/values";
+
+.container{
+    @apply w-full flex flex-col items-center py-3 md:px-8 px-4
+}
+.container img{
+    @apply w-full lg:w-1/2 rounded-lg
+}
+.head {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply lg:w-1/2 w-full my-5 p-3 rounded-md
+}
+.head h2{
+    color: $bgcolor2;
+    @apply text-2xl font-bold text-center
+}
+.specifications{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply flex flex-col lg:w-1/2 w-full rounded-md p-3
+}
+.items{
+    @apply flex justify-between items-center w-full my-1
+}
+.items div{
+    @apply flex text-lg font-bold items-center
+}
+.items div p{
+    @apply ml-2
+}
+.loca{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply flex justify-between my-5 rounded-md lg:w-1/2 w-full p-3
+}
+.loca div{
+    @apply flex text-lg font-bold items-center
+}
+.loca div p{
+    @apply ml-2
+}
+.infor{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply lg:w-1/2 w-full p-4 rounded-md
+}
+.infor h3{
+    @apply text-xl font-bold mb-3
+}
+.buy{
+    @apply w-full flex flex-col items-center
+}
+.price{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @apply w-full p-3 my-5 rounded-md flex justify-between items-center lg:w-1/2
+}
+.price div{
+    @apply flex items-center
+}
+.price h4{
+    @apply text-lg font-bold border-2 p-1 border-green-500 rounded-md
+}
+.price div h3{
+    @apply ml-2 text-xl
+}
+.btn{
+    @apply w-full lg:w-1/2 bg-green-600 h-12 rounded-md text-white font-bold hover:bg-green-800
+}
