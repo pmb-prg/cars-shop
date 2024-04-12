@@ -3,7 +3,6 @@ import Location from "../icons/Location"
 import styles from "./Card.module.scss"
 function Card(props) {
     const {id, image, model, year, distance, price, location} = props;
-    console.log(props)
   return (
     <Link href={`/cars/${id}`}>
         <div className={styles.container}>

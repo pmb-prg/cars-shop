@@ -1,0 +1,8 @@
+@import "../../src/styles/values";
+.container{
+    @apply flex  items-center mx-4 sm:mx-8 my-8
+}
+.container button{
+    background-color: $bgcolor1;
+    @apply flex  p-3 w-24 justify-between items-center font-bold rounded-lg
+}

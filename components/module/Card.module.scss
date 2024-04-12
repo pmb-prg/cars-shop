@@ -2,7 +2,7 @@
 
 .container{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    @apply flex flex-col justify-between h-96 mx-1 my-3 rounded-lg p-2 w-[342px] cursor-pointer
+    @apply flex flex-col justify-between h-96 mx-1 my-3 rounded-lg p-2 sm:w-[342px] w-[315px] cursor-pointer
 }
 .topCard {
     @apply flex flex-col justify-between h-80 border-b-2 pb-2

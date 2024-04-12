@@ -1,0 +1,6 @@
+.container{
+    @apply w-fit mx-auto my-9
+}
+.container button {
+    @apply bg-orange-500 p-3 rounded-lg font-bold hover:bg-orange-400 transition
+}

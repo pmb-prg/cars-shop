@@ -1,0 +1,8 @@
+
+
+.container{
+    @apply w-fit h-[75dvh] m-auto flex justify-center items-center
+}
+.container h2{
+    @apply border-4 p-9 rounded-full border-orange-400 font-bold text-2xl
+}
